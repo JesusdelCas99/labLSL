@@ -52,6 +52,6 @@ Configuración por PC involucrado:
 - Reproductor de vídeo VLC
 	```bash
 	choco install vlc
-- ffmpeg:
+- ffmpeg framework:
 	```bash
 	choco install ffmpeg
