@@ -44,11 +44,13 @@ Configuración por PC involucrado:
 	pip install serial
 	pip install opencv-python	
 - WireShark:
+	```bash
 	choco install wireshark
 - VSCode:
 	```bash
 	choco install vscode
 - Reproductor de vídeo VLC
+	```bash
 	choco install vlc
 - ffmpeg:
 	```bash
