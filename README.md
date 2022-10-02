@@ -43,29 +43,6 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 #### VSCode
 	> choco install vscode 
 #### Reproductor de vídeo VLC
-
-> choco install vlc
-
+	> choco install vlc
 #### ffmpeg
-
-> choco install ffmpeg
-
-
-
-Requisitos hardware:
-	> Adaptador de red Wi-Fi (PC studio XPS)
-	> Cable Ethernet (conexi�n PC Nox - PC studio XPS)
-
-Instalar:
-	> Microsoft Redistributables
-	> Anaconda (a�adir ANACONDA al PATH desde el propio instalador)
-	> VScode
-	> Reproductor de v�deo VLC
-	> WireShark
-	> Chocolatey: 
-
-Configuraci�n de Anaconda:
-	> pip install PyQt5
-	> pip install pylsl
-	> pip install serial
-	> pip install opencv-python
+	> choco install ffmpeg
