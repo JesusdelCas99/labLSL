@@ -20,8 +20,6 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 
 ## Configuración del laboratorio
 
-Configuración por PC involucrado:
-
 ### Requisitos hardware
 
 - Dispositivo de grabación compatible con OpenCV
@@ -30,6 +28,7 @@ Configuración por PC involucrado:
 - Amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/)
 
 ### Requisitos software
+Configuración por PC involucrado:
 #### PowerShell:
 	```bash
 	Set-ExecutionPolicy Unrestricted
