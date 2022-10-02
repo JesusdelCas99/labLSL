@@ -6,7 +6,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 - 
 - :file_folder: labstreaminglayer: Incluye el entorno de trabajo LSL. Algunas de las aplicaciones se encuentran ya compiladas para una arquitectura x86-64. En caso de usar una arquitectura diferente remítase a los ficheros CMAKELIST.TXT para su construcción. En el marco de este proyecto de investigación solo se hará uso de las siguientes aplicaciones LSL, no obstante como podrá ver el usuario dispone de un mayor número de aplicaciones a fin de proveer un entorno de trabajo íntegro: 
 
-  - ![#f03c15]  LabRecorder: Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture...)
+  - ![#f03c15](LabRecorder: Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture...))
   
   - [Writer] AudioCapture: Captura de audio.
   
