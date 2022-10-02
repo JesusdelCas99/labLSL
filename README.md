@@ -34,8 +34,9 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 Configuración por PC involucrado:
 #### PowerShell
 Paso previo a proceder con la instalación de cualquier programa es necesario habilitar desde PowerShell la ejecución de scripts de terceros:
+	```bash
 	Set-ExecutionPolicy Unrestricted
-	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))	
+	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))´´´
 #### Microsoft Redistributables
 	.\PlatformSpecs\Microsoft Redistributables\install_all.bat
 #### Anaconda: Incluir al PATH del sistema
