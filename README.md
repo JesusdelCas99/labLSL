@@ -45,7 +45,8 @@ Paso previo a proceder con la instalación de cualquier programa es necesario ha
 #### Microsoft Redistributables
 	.\PlatformSpecs\Microsoft Redistributables\install_all.bat
 #### Anaconda
-	No ovolvidar incluir al PATH del sistema
+
+No ovolvidar incluir al PATH del sistema
 	
 	pip install PyQt5
 	pip install pylsl
