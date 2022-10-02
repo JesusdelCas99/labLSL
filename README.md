@@ -8,15 +8,15 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
   
   En el marco de este proyecto de investigación solo se hará uso de las siguientes aplicaciones LSL, aunque como podrá ver el usuario dispone de un mayor número de aplicaciones a fin de proveer un entorno de trabajo íntegro: 
 
-  - *[Writer]* LabRecorder: Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture, etc).
+  - *[Writer]* **LabRecorder**: Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture, etc).
   
-  - *[Writer]* AudioCapture: Captura de audio.
+  - *[Writer]* **AudioCapture**: Captura de audio.
   
-  - *[Writer]* SigVisualizer: Visualización de registros EEG en tiempo real. Permite configurar las etiquetas asignadas a los electrodos a elección propia.
+  - *[Writer]* **SigVisualizer**: Visualización de registros EEG en tiempo real. Permite configurar las etiquetas asignadas a los electrodos a elección propia.
   
-  - *[Writer]* VideoCapture: Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
+  - *[Writer]* **VideoCapture**: Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
   
-  - *[Writer]* ActiCHamp: Configura la comunicación vía USB con el amplificador actiCHamp y habilita la captura de señales EEG.
+  - *[Writer]* **ActiCHamp**: Configura la comunicación vía USB con el amplificador actiCHamp y habilita la captura de señales EEG.
   
 - :file_folder: **PlatformSpecs**: Especifica los requisitos de plataforma. Se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
 
