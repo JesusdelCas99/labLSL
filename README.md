@@ -1,7 +1,7 @@
 # labLSL
 Directivas de operación y configuración del entorno de trabajo provisto por labstreaminglayer (LSL) en el marco del proyecto de investigación "Restauración de la Voz con Interfaces Cerebro Ordenador" del Plan Nacional 2019. Para mas información remítase al siguiente enlace: https://labstreaminglayer.org/#/
 
-## Contenido
+### Contenido
 - :file_folder: EEG_Recorder: Contiene los experimentos desarrollados en Python específicos del proyecto. 
 
 - :file_folder: labstreaminglayer: Incluye el entorno de trabajo LSL (remítase a los ficheros CMAKELIST.TXT para su construcción). No obstante muchas de las aplicaciones se encuentran ya compiladas y disponibles para su uso en Windows 10 (x86-64). 
@@ -18,18 +18,18 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 
 - :file_folder: VideoData: Contiene las grabaciones de vídeo realizadas desde la aplicación "SigVisualizer" implementada como parte del entorno LSL.
 
-## Configuración del laboratorio
+### Configuración del laboratorio
 
 Configuración por PC involucrado:
 
-### Requisitos hardware
+#### Requisitos hardware
 
 - Dispositivo de grabación compatible con OpenCV
 - Micrófono (adaptador minijack estéreo 3.5mm)
 - Conexión Ethernet entre los distintos equipos o PCs asociados a una determinada fuente de captura.
 - Amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/)
 
-### Requisitos software
+#### Requisitos software
 - PowerShell:
 	Set-ExecutionPolicy Unrestricted
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))	
