@@ -43,7 +43,8 @@ Configuración por PC involucrado:
 - WireShark 
 	choco install wireshark
 - VSCode
-	```choco install vscode´´´
+	```bash
+	choco install vscode´´´
 - Reproductor de vídeo VLC
 	choco install vlc
 - ffmpeg
