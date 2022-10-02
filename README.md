@@ -36,7 +36,6 @@ Configuración por PC involucrado:
 
 Paso previo a proceder con la instalación de cualquier programa es necesario habilitar desde PowerShell la ejecución de scripts de terceros:
 	
-	```bash
 	Set-ExecutionPolicy Unrestricted
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 #### Microsoft Redistributables
