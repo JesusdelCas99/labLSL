@@ -5,6 +5,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 - :file_folder: EEG_Recorder: Contiene los experimentos desarrollados en Python específicos del proyecto. 
 
 - :file_folder: labstreaminglayer: Incluye el entorno de trabajo LSL (remítase a los ficheros CMAKELIST.TXT para su construcción). No obstante muchas de las aplicaciones se encuentran ya compiladas y disponibles para su uso en Windows 10 (x86-64). 
+  
   En el marco de este proyecto de investigación solo se hará uso de las siguientes aplicaciones LSL, aunque como podrá ver el usuario dispone de un mayor número de aplicaciones a fin de proveer un entorno de trabajo íntegro: 
 
   - [Writer] LabRecorder: Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture...).
