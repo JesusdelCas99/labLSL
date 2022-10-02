@@ -31,23 +31,24 @@ Configuración por PC involucrado:
 
 #### Requisitos software
 - PowerShell:
+	```bash
 	Set-ExecutionPolicy Unrestricted
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))	
 #### Microsoft Redistributables
 	.\PlatformSpecs\Microsoft Redistributables\install_all.bat
-- Anaconda (añadir ANACONDA al PATH del sistema)
+- Anaconda: Incluir al PATH del sistema:
 	```bash
 	pip install PyQt5
 	pip install pylsl
 	pip install serial
 	pip install opencv-python	
-- WireShark 
+- WireShark:
 	choco install wireshark
-- VSCode
+- VSCode:
 	```bash
 	choco install vscode
 - Reproductor de vídeo VLC
 	choco install vlc
-- ffmpeg
+- ffmpeg:
 	```bash
 	choco install ffmpeg
