@@ -12,7 +12,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
   - [Writer] AudioCapture: Captura de audio.
   - [Writer] SigVisualizer: Visualización de registros EEG en tiempo real. Permite configurar las etiquetas asignadas a los electrodos a elección propia.
   - [Writer] VideoCapture: Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
-  - [Writer] ActiCHamp: Configura la comunicación con el amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/) por USB y habilita la captura de señales EEG.
+  - [Writer] ActiCHamp: Configura la comunicación vía USB con el amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/) y habilita la captura de señales EEG.
   
 - :file_folder: PlatformSpecs: Especifica los requisitos de plataforma. Se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
 
