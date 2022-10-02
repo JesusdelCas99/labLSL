@@ -51,5 +51,5 @@ Paso previo a proceder con la instalación de cualquier programa es necesario ha
 	choco install vscode
 #### Reproductor de vídeo VLC
 	choco install vlc
-#### ffmpeg framework
+#### ffmpeg Framework
 	choco install ffmpeg
