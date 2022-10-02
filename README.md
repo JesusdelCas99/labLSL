@@ -14,6 +14,6 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
   - [Writer] VideoCapture: Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
   - [Writer] ActiCHamp: Configura la comunicación con el amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/) por USB y habilita la captura de señales EEG.
   
-- :file_folder: PlatformSpecs: Especifica los requisitos de plataforma. Adicionalmente se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
+- :file_folder: PlatformSpecs: Especifica los requisitos de plataforma. Se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
 
 - :file_folder: VideoData: Contiene las grabaciones de vídeo realizadas desde la aplicación "SigVisualizer" implementada como parte del entorno LSL.
