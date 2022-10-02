@@ -30,21 +30,21 @@ Configuración por PC involucrado:
 - Amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/)
 
 ### Requisitos software
-#### PowerShell:
+- PowerShell:
 	Set-ExecutionPolicy Unrestricted
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))	
 #### Microsoft Redistributables
 	.\PlatformSpecs\Microsoft Redistributables\install_all.bat
-#### Anaconda (añadir ANACONDA al PATH del sistema)
+- Anaconda (añadir ANACONDA al PATH del sistema)
 	pip install PyQt5
 	pip install pylsl
 	pip install serial
 	pip install opencv-python	
-#### WireShark 
+- WireShark 
 	choco install wireshark
-#### VSCode
+- VSCode
 	choco install vscode 
 #### Reproductor de vídeo VLC
 	choco install vlc
-#### ffmpeg
+- ffmpeg
 	choco install ffmpeg
