@@ -23,11 +23,23 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 ### Requisitos hardware
 
 - Dispositivo de grabación compatible con OpenCV
+- Micrófono (adaptador minijack stereo 3.5mm)
 - Conexión Ethernet entre los distintos equipos o PCs involucrados en la 
 
 
 ### Requisitos software
-
+#### Microsoft Redistributables
+	> .\PlatformSpecs\Microsoft Redistributables\install_all.bat
+	
+#### Anaconda (añadir ANACONDA al PATH del sistema)
+	> pip install PyQt5
+	> pip install pylsl
+	> pip install serial
+	> pip install opencv-python
+	
+#### WireShark 
+#### VSCode
+#### Reproductor de vídeo VLC
 
 #### PowerShell:
 	Set-ExecutionPolicy Unrestricted
