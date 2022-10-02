@@ -1,7 +1,7 @@
 # labLSL
 Directivas de operación y configuración del entorno de trabajo provisto por labstreaminglayer (LSL) en el marco del proyecto de investigación "Restauración de la Voz con Interfaces Cerebro Ordenador" del Plan Nacional 2019. Para mas información remítase al siguiente enlace: https://labstreaminglayer.org/#/
 
-### Contenido
+## Contenido
 - :file_folder: EEG_Recorder: Contiene los experimentos desarrollados en Python específicos del proyecto. 
 
 - :file_folder: labstreaminglayer: Incluye el entorno de trabajo LSL. Remítase a los ficheros CMAKELIST.TXT para su construcción; no obstante muchas de las aplicaciones se encuentran ya compiladas y disponibles para su uso en Windows 10 (x86-64). 
@@ -18,40 +18,40 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 
 - :file_folder: VideoData: Contiene las grabaciones de vídeo realizadas desde la aplicación "SigVisualizer" implementada como parte del entorno LSL.
 
-### Configuración del laboratorio
+## Configuración del laboratorio
 
 Configuración por PC involucrado:
 
-#### Requisitos hardware
+### Requisitos hardware
 
 - Dispositivo de grabación compatible con OpenCV
 - Micrófono (adaptador minijack estéreo 3.5mm)
 - Conexión Ethernet entre los distintos equipos o PCs asociados a una determinada fuente de captura.
 - Amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/)
 
-#### Requisitos software
-##### PowerShell:
+### Requisitos software
+#### PowerShell:
 	```bash
 	Set-ExecutionPolicy Unrestricted
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))	
-- Microsoft Redistributables
+#### Microsoft Redistributables
 	```bash
 	.\PlatformSpecs\Microsoft Redistributables\install_all.bat
-- Anaconda: Incluir al PATH del sistema:
+#### Anaconda: Incluir al PATH del sistema:
 	```bash
 	pip install PyQt5
 	pip install pylsl
 	pip install serial
 	pip install opencv-python	
-- WireShark:
+#### WireShark:
 	```bash
 	choco install wireshark
-- VSCode:
+#### VSCode:
 	```bash
 	choco install vscode
-- Reproductor de vídeo VLC
+#### Reproductor de vídeo VLC
 	```bash
 	choco install vlc
-- ffmpeg framework:
+#### ffmpeg framework:
 	```bash
 	choco install ffmpeg
