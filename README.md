@@ -23,34 +23,30 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 ### Requisitos hardware
 
 - Dispositivo de grabación compatible con OpenCV
+
 - Micrófono (adaptador minijack estéreo 3.5mm)
+
 - Conexión Ethernet entre los distintos equipos o PCs asociados a una determinada fuente de captura.
+
 - Amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/)
 
 ### Requisitos software
 Configuración por PC involucrado:
-#### PowerShell:
-	```bash
+#### PowerShell
 	Set-ExecutionPolicy Unrestricted
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))	
 #### Microsoft Redistributables
-	```bash
 	.\PlatformSpecs\Microsoft Redistributables\install_all.bat
-#### Anaconda: Incluir al PATH del sistema:
-	```bash
+#### Anaconda: Incluir al PATH del sistema
 	pip install PyQt5
 	pip install pylsl
 	pip install serial
 	pip install opencv-python	
-#### WireShark:
-	```bash
+#### WireShark
 	choco install wireshark
-#### VSCode:
-	```bash
+#### VSCode
 	choco install vscode
 #### Reproductor de vídeo VLC
-	```bash
 	choco install vlc
-#### ffmpeg framework:
-	```bash
+#### ffmpeg framework
 	choco install ffmpeg
