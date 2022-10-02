@@ -6,16 +6,16 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 - 
 - :file_folder: labstreaminglayer: Incluye el entorno de trabajo LSL. Algunas de las aplicaciones se encuentran ya compiladas para una arquitectura x86-64. En caso de usar una arquitectura diferente remítase a los ficheros CMAKELIST.TXT para su construcción. En el marco de este proyecto de investigación solo se hará uso de las siguientes aplicaciones LSL, no obstante como podrá ver el usuario dispone de un mayor número de aplicaciones a fin de proveer un entorno de trabajo íntegro: 
 
-  - ![#f33c15](LabRecorder: Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture...))
+  - [Writer] LabRecorder: Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture...).
   
   - [Writer] AudioCapture: Captura de audio.
   
-  - [Writer] SigVisualizer: Visualización de registros EEG en tiempo real.
+  - [Writer] SigVisualizer: Visualización de registros EEG en tiempo real. Permite configurar las etiquetas asignadas a los electrodos a elección propia.
   
-  - [Writer] VideoCapture: Grabaciones de vídeo
+  - [Writer] VideoCapture: Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
   
-  - [Writer] ActiCHamp: Configura la comunicación con el amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/) y habilita la captura de datos
+  - [Writer] ActiCHamp: Configura la comunicación con el amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/) por USB y habilita la captura de señales EEG.
   
-- :file_folder: PlatformSpecs: Requisitos de plataforma. 
+- :file_folder: PlatformSpecs: Especifica los requisitos de plataforma. 
 
 - :file_folder: VideoData: Contiene las grabaciones de vídeo realizadas desde la aplicación "SigVisualizer" implementada como parte del entorno LSL.
