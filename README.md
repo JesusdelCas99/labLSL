@@ -36,6 +36,7 @@ Configuración por PC involucrado:
 #### Microsoft Redistributables
 	.\PlatformSpecs\Microsoft Redistributables\install_all.bat
 - Anaconda (añadir ANACONDA al PATH del sistema)
+	```bash
 	pip install PyQt5
 	pip install pylsl
 	pip install serial
@@ -44,8 +45,9 @@ Configuración por PC involucrado:
 	choco install wireshark
 - VSCode
 	```bash
-	choco install vscode´´´
+	choco install vscode
 - Reproductor de vídeo VLC
 	choco install vlc
 - ffmpeg
+	```bash
 	choco install ffmpeg
