@@ -30,7 +30,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 
 - Micrófono (adaptador minijack estéreo 3.5mm)
 
-- Conexión Ethernet entre los distintos equipos o PCs asociados a una determinada fuente de captura.
+- Conexión Ethernet entre los equipos involucrados o PCs asociados a una determinada fuente de captura.
 
 - Amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/)
 
