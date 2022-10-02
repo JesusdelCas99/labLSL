@@ -34,7 +34,8 @@ Configuración por PC involucrado:
 	```bash
 	Set-ExecutionPolicy Unrestricted
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))	
-#### Microsoft Redistributables
+- Microsoft Redistributables
+	```bash
 	.\PlatformSpecs\Microsoft Redistributables\install_all.bat
 - Anaconda: Incluir al PATH del sistema:
 	```bash
