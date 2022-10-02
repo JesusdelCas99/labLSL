@@ -17,3 +17,28 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 - :file_folder: PlatformSpecs: Especifica los requisitos de plataforma. Se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
 
 - :file_folder: VideoData: Contiene las grabaciones de vídeo realizadas desde la aplicación "SigVisualizer" implementada como parte del entorno LSL.
+
+## Configuración 
+
+### PowerShell:
+	> Set-ExecutionPolicy Unrestricted
+	> Instalar chocolatey
+	> choco install ffmpeg
+
+Requisitos hardware:
+	> Adaptador de red Wi-Fi (PC studio XPS)
+	> Cable Ethernet (conexi�n PC Nox - PC studio XPS)
+
+Instalar:
+	> Microsoft Redistributables
+	> Anaconda (a�adir ANACONDA al PATH desde el propio instalador)
+	> VScode
+	> Reproductor de v�deo VLC
+	> WireShark
+	> Chocolatey: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+Configuraci�n de Anaconda:
+	> pip install PyQt5
+	> pip install pylsl
+	> pip install serial
+	> pip install opencv-python
