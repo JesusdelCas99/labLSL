@@ -12,20 +12,22 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
   - [Writer] AudioCapture: Captura de audio.
   - [Writer] SigVisualizer: Visualización de registros EEG en tiempo real. Permite configurar las etiquetas asignadas a los electrodos a elección propia.
   - [Writer] VideoCapture: Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
-  - [Writer] ActiCHamp: Configura la comunicación vía USB con el amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/) y habilita la captura de señales EEG.
+  - [Writer] ActiCHamp: Configura la comunicación vía USB con el amplificador actiCHamp y habilita la captura de señales EEG.
   
 - :file_folder: PlatformSpecs: Especifica los requisitos de plataforma. Se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
 
 - :file_folder: VideoData: Contiene las grabaciones de vídeo realizadas desde la aplicación "SigVisualizer" implementada como parte del entorno LSL.
 
-## Configuración 
+## Configuración del laboratorio
+
+Configuración por PC involucrado:
 
 ### Requisitos hardware
 
 - Dispositivo de grabación compatible con OpenCV
-- Micrófono (adaptador minijack stereo 3.5mm)
-- Conexión Ethernet entre los distintos equipos o PCs involucrados en la 
-
+- Micrófono (adaptador minijack estéreo 3.5mm)
+- Conexión Ethernet entre los distintos equipos o PCs asociados a una determinada fuente de captura.
+- Amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/)
 
 ### Requisitos software
 #### PowerShell:
