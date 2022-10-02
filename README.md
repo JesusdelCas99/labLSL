@@ -28,6 +28,11 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 
 
 ### Requisitos software
+
+#### PowerShell:
+	> Set-ExecutionPolicy Unrestricted
+	> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+	
 #### Microsoft Redistributables
 	> .\PlatformSpecs\Microsoft Redistributables\install_all.bat
 	
@@ -38,13 +43,22 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 	> pip install opencv-python
 	
 #### WireShark 
+
+> choco install wireshark
+> 
 #### VSCode
+
+> choco install vscode 
+
 #### Reproductor de vídeo VLC
 
-#### PowerShell:
-	Set-ExecutionPolicy Unrestricted
-	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-	choco install ffmpeg
+> choco install vlc
+
+#### ffmpeg
+
+> choco install ffmpeg
+
+
 
 Requisitos hardware:
 	> Adaptador de red Wi-Fi (PC studio XPS)
