@@ -4,7 +4,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 ### Contenido
 - :file_folder: EEG_Recorder: Contiene los experimentos desarrollados en Python específicos del proyecto. 
 
-- :file_folder: labstreaminglayer: Incluye el entorno de trabajo LSL (remítase a los ficheros CMAKELIST.TXT para su construcción). No obstante muchas de las aplicaciones se encuentran ya compiladas y disponibles para su uso en Windows 10 (x86-64). 
+- :file_folder: labstreaminglayer: Incluye el entorno de trabajo LSL. Remítase a los ficheros CMAKELIST.TXT para su construcción; no obstante muchas de las aplicaciones se encuentran ya compiladas y disponibles para su uso en Windows 10 (x86-64). 
   
   En el marco de este proyecto de investigación solo se hará uso de las siguientes aplicaciones LSL, aunque como podrá ver el usuario dispone de un mayor número de aplicaciones a fin de proveer un entorno de trabajo íntegro: 
 
@@ -43,8 +43,8 @@ Configuración por PC involucrado:
 - WireShark 
 	choco install wireshark
 - VSCode
-	choco install vscode 
-#### Reproductor de vídeo VLC
+	```choco install vscode´´´
+- Reproductor de vídeo VLC
 	choco install vlc
 - ffmpeg
 	choco install ffmpeg
