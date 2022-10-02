@@ -8,7 +8,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
   
   En el marco de este proyecto de investigación solo se hará uso de las siguientes aplicaciones LSL, aunque como podrá ver el usuario dispone de un mayor número de aplicaciones a fin de proveer un entorno de trabajo íntegro: 
 
-  - *[Writer]* **LabRecorder**: Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture, etc).
+  - *[Reader]* **LabRecorder**: Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture, etc).
   
   - *[Writer]* **AudioCapture**: Captura de audio.
   
