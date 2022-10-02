@@ -46,7 +46,7 @@ Paso previo a proceder con la instalación de cualquier programa es necesario ha
 	.\PlatformSpecs\Microsoft Redistributables\install_all.bat
 #### Anaconda
 
-A fin de tratar con Anaconda desde la línea de comandos deberemos incluirla al PATH del sistema:
+A fin de tratar con Anaconda desde la línea de comandos deberemos incluir su ruta al PATH del sistema:
 	
 	pip install PyQt5
 	pip install pylsl
