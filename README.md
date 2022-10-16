@@ -18,7 +18,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
   
   - *[Writer]* **ActiCHamp**: Configura la comunicación vía USB con el amplificador actiCHamp y habilita la captura de señales EEG.
   
-- :file_folder: **PlatformSpecs**: Especifica los requisitos de plataforma. Se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
+- :file_folder: **Timing Test**: Especifica los requisitos de plataforma. Se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
 
 - :file_folder: **VideoData**: Contiene las grabaciones de vídeo realizadas desde la aplicación "SigVisualizer" implementada como parte del entorno LSL.
 
