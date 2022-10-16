@@ -34,10 +34,10 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 
 - Amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/)
 
-### Configuración de trabajo
+### Configuración del entorno de trabajo
 #### PowerShell
 
-1. Configuración de inicio:
+1. Configuración de inicio sesión en PowerShell:
 ```
 Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
 Add-Content -Path $PROFILE -Value "remove-item alias:curl"
@@ -48,7 +48,11 @@ Add-Content -Path $PROFILE -Value "remove-item alias:curl"
 Set-ExecutionPolicy Unrestricted
 ```
 
-3. Instalación del gestor de paquetes Chocolatey
+3. Instalación del gestor de paquetes Chocolatey:
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+4. Instalación del entorno de trabajo LabStreaminglayer y resto de dependencias software:
+```
+./installer.ps1
 ```
