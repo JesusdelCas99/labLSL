@@ -12,7 +12,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
   
   - *[Writer]* **AudioCapture**: Captura de audio.
   
-  - *[Writer]* **SigVisualizer**: Visualización de registros EEG en tiempo real. Permite configurar las etiquetas asignadas a los electrodos a elección propia.
+  - *[Writer]* **BrainVision LSL Viewer**: Visualización de registros EEG en tiempo real.
   
   - *[Writer]* **VideoCapture**: Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
   
