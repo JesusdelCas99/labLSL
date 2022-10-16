@@ -1,0 +1,47 @@
+This repository contains several programs for recording synchronised iEEG and audio signals for different cognitive tasks involving language production. In particular, the following programs are available:
+
+   1. single_words.py: Production of single words (e.g., vowel-consonant-vowels syllables) for two tasks: spoken words and imagined words.
+
+   2. picture_naming.py: Naming of pictures belonging to different semantic categories. Two tasks are considered: spoken words and imagined words.
+
+
+---------------------------------------------------------
+1. INSTALLATION
+---------------------------------------------------------
+
+ToDo
+
+
+---------------------------------------------------------
+2. EXECUTION
+---------------------------------------------------------
+To run the programs listed above, follow these instructions:
+
+1. Run the LSL LabRecorder program:
+  > labrecorder
+
+2. Run the LSL AudioCapture program and link it:
+  2a. Run audiocapture:
+      > audiocapture
+  2b. Set the following parameters:
+      Sample Rate: 44100
+      Sample size: 16
+      Channels: 1
+      Buffer size: 100 ms
+  2c. Press Link in the user interface
+
+3. Set the USB serial port permissions as follows:
+  > sudo chmod 666 /dev/ttyACM0
+
+  where /dev/ttyACM0 is the device for the USB port. Use list_usb_ports.sh to find the USB port you are using.
+
+4. Run the stimuli presentation software (e.g. single_words.py):
+  > ./single_words
+
+5. Start recording the streams with LabRecorder:
+   5a. Select all streams:
+       i/ Update and the select all streams from "Record from streams". There must be at least 2 streams: MyAudioStream and that for the stimuli presentation software.
+
+   5b. Modify the information from the participant as need.
+
+   5c. Press start to start saving the streams in a xdf file.
