@@ -37,13 +37,13 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 ### Configuración del entorno de trabajo
 #### PowerShell
 
-1. Configuración de inicio sesión en PowerShell:
+1. Configuración de sesión en PowerShell:
 ```
 Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
 Add-Content -Path $PROFILE -Value "remove-item alias:curl"
 ```
 
-2. Paso previo a proceder con la instalación de cualquier programa es necesario habilitar desde PowerShell la ejecución de scripts de terceros:
+2. Habilitamos la jecución de scripts de terceros en PowerShell:
 ```
 Set-ExecutionPolicy Unrestricted
 ```
