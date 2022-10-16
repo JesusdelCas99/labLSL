@@ -45,12 +45,12 @@ Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
 Add-Content -Path $PROFILE -Value "remove-item alias:curl"
 ```
 
-2. Habilitamos la jecución de scripts de terceros en PowerShell:
+2. Habilitamos la ejecución de scripts de terceros en PowerShell:
 ```
 Set-ExecutionPolicy Unrestricted
 ```
 
-3. Instalación del gestor de paquetes Chocolatey:
+3. Instalación del gestor de paquetes *chocolatey*:
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
