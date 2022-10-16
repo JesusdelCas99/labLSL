@@ -40,7 +40,7 @@ Configuración por PC involucrado:
 
 Paso previo a proceder con la instalación de cualquier programa es necesario habilitar desde PowerShell la ejecución de scripts de terceros:
 	
-	# Adds this command to PowerShell´s default launch script
+	<# Adds this command to PowerShell´s default launch script #>
 	Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
 	Add-Content -Path $PROFILE -Value "remove-item alias:curl" 
 	Set-ExecutionPolicy Unrestricted
