@@ -22,7 +22,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 
 - :file_folder: **VideoData**: Contiene las grabaciones de vídeo realizadas desde la aplicación "SigVisualizer" implementada como parte del entorno LSL.
 
-## Configuración del laboratorio
+## Configuración de trabajo
 
 ### Requisitos hardware
 
