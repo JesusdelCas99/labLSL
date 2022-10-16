@@ -39,8 +39,9 @@ Configuración por PC involucrado:
 #### PowerShell
 
 1. Configuración de inicio 
-	Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
-	Add-Content -Path $PROFILE -Value "remove-item alias:curl" 
+
+	```Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
+	Add-Content -Path $PROFILE -Value "remove-item alias:curl" ´´´
 	
 2. Paso previo a proceder con la instalación de cualquier programa es necesario habilitar desde PowerShell la ejecución de scripts de terceros:
 
