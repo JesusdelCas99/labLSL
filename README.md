@@ -39,7 +39,7 @@ La instalación del entorno de trabajo LSL será efectuada desde PowerShell. Par
 
 #### PowerShell
 
-1. Configuración de sesión en PowerShell:
+1. Configuramos el inicio de sesión de PowerShell:
 ```
 Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
 Add-Content -Path $PROFILE -Value "remove-item alias:curl"
@@ -50,11 +50,11 @@ Add-Content -Path $PROFILE -Value "remove-item alias:curl"
 Set-ExecutionPolicy Unrestricted
 ```
 
-3. Instalación del gestor de paquetes *chocolatey*:
+3. Procedemos a instalar el gestor de paquetes *chocolatey*:
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
-4. Abrimos una nueva sesión de PowerShell para actualizar los cambios realizados y procedemos con la instalación del entorno de trabajo *labstreaminglayer*:
+4. Abrimos una nueva sesión de PowerShell para actualizar los cambios efectuados y procedemos con la instalación del entorno de trabajo *labstreaminglayer*:
 ```
 ./installer.ps1
 ```
