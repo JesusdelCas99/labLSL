@@ -1,5 +1,10 @@
 ﻿echo "Configuring LSLlab..."
 
+# Curl Tool 
+echo "Installing curl..."
+choco install curl -y -f | Out-Null
+echo "Curl installed!" ; echo ""
+
 # Installing LSL enviroment in user´s Desktop folder
 $ProgressPreference = "SilentlyContinue"
 $DesktopPath = [Environment]::GetFolderPath("Desktop")
@@ -50,11 +55,6 @@ curl -L -o "./StandalonePsychoPy-2022.2.4-win64.exe" "https://github.com/psychop
 Start-Process -Wait -FilePath ".\StandalonePsychoPy-2022.2.4-win64.exe" -ArgumentList "/S" -PassThru | Out-Null
 cd .. ; del temp -R
 echo "PsychoPy installed!" ; echo ""
-
-# Curl Tool 
-echo "Installing curl..."
-choco install curl -y -f | Out-Null
-echo "Curl installed!" ; echo ""
 
 # VLC Tool
 echo "Installing VLC Tool..."
