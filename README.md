@@ -31,7 +31,7 @@ La instalación del entorno de trabajo LSL será efectuada desde PowerShell. Par
 
 3. Procedemos a instalar el gestor de paquetes *chocolatey*:
 
-      Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+     ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')) ```
             
 4. Abrimos una nueva sesión de PowerShell para actualizar los cambios efectuados y procedemos con la instalación del entorno de trabajo *labstreaminglayer*:
       ```
