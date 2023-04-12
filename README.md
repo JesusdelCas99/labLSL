@@ -38,7 +38,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ./installer.ps1
 ```
 
-Entre las herramientas software a instalar, además del propio entorno LSL incluimos: curl, Git, WireShark, ffmpeg, Anaconda, Psychopy, VLC (reproductor multimedia), Microsoft Redistributables y BrainVision LSL Viewer. Remítase al instalador para ajustar los parámetros de la instalación y en su caso omitir las herramientas software que considere no necesarias. 
+Entre las herramientas software a instalar, además del propio entorno LSL incluimos: curl, Git, WireShark, ffmpeg, Anaconda, Psychopy, VLC (reproductor multimedia), Microsoft Redistributables y BrainVision LSL Viewer. 
+
+Remítase al instalador para ajustar los parámetros de la instalación y en su caso omitir las herramientas software que considere no necesarias. 
 
 5. Junto a las dependencias software instaladas en el paso anterior, se nos deberá haber creado el directorio 'labLSL_v1' directamente en nuesto escritorio. En este directorio encontraremos el cuerpo principal del proyecto, estructurado de la siguiente manera:
 
