@@ -45,7 +45,7 @@ Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
 Add-Content -Path $PROFILE -Value "remove-item alias:curl"
 ```
 
-2. Habilitamos la ejecución de scripts de terceros en PowerShell:
+2. Habilitamos la ejecución de scripts de terceros en PowerShell (requiere modo administrador):
 ```
 Set-ExecutionPolicy Unrestricted
 ```
