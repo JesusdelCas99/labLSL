@@ -13,7 +13,7 @@ Directivas de operación y configuración del entorno de trabajo provisto por la
 
 - Amplificador actiCHamp (www.brainproducts.com/solutions/actichamp/)
 
-### Configuración del entorno LSL 
+### Configuración del entorno de trabajo LSL 
 La instalación del entorno de trabajo LSL será efectuada desde PowerShell. Para ello deberemos seguir los siguientes pasos:
 
 #### PowerShell
