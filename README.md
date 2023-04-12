@@ -58,3 +58,23 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 ./installer.ps1
 ```
+
+Entre las herramientas software a instalar, además del propio entorno LSL incluimos: curl, Git, WireShark, ffmpeg, Anaconda, Psychopy, VLC (reproductor multimedia), Microsoft Redistributables y BrainVision LSL Viewer. Remítase al instalador para ajustar los parámetros de la instalación y en su caso omitir las herramientas software que considere no necesarias. 
+
+5. Junto a las dependencias software instaladas en el paso anterior, se nos deberá haber creado el directorio 'labLSL_v1' directamente en nuesto escritorio. En este directorio encontraremos el cuerpo principal del proyecto, estructurado de la siguiente manera:
+
+- :file_folder: **EEG_Recorder**: Contiene los experimentos desarrollados en Python y Psychopy. 
+
+- :file_folder: **labstreaminglayer**: Incluye el entorno de trabajo LSL. Remítase a los ficheros CMAKELIST.TXT para su construcción; no obstante muchas de las aplicaciones se encuentran ya compiladas y disponibles para su uso en Windows 10 (x86-64):
+
+  - *[Reader]* **LabRecorder** (archivo principal ```actiCHamp.exe```): Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture, etc).
+  
+  - *[Writer]* **AudioCaptureWin**: Captura de audio.
+  
+  - *[Writer]* **VideoCapture**: Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
+  
+  - *[Writer]* **ActiCHamp**: Configura la comunicación vía USB con el amplificador actiCHamp y habilita la captura de señales EEG.
+  
+- :file_folder: **Timing Test**: Especifica los requisitos de plataforma. Se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
+
+- :file_folder: **VideoData**: Contiene las grabaciones de vídeo realizadas desde la aplicación "SigVisualizer" implementada como parte del entorno LSL.
