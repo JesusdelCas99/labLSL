@@ -19,10 +19,10 @@ La instalación del entorno de trabajo LSL será efectuada desde PowerShell. Par
 #### PowerShell
 
 1. Configuramos el inicio de sesión de PowerShell:
-  ```
-  Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
-  Add-Content -Path $PROFILE -Value "remove-item alias:curl"
-  ```
+      ```
+      Add-Content -Path $PROFILE -Value "$ProgressPreference = 'SilentlyContinue'"
+      Add-Content -Path $PROFILE -Value "remove-item alias:curl"
+      ```
 
 2. Habilitamos la ejecución de scripts de terceros en PowerShell (requiere modo administrador):
 ```
