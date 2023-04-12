@@ -50,13 +50,13 @@ La instalación del entorno de trabajo LSL será efectuada desde PowerShell. Par
 
       - :file_folder: **labstreaminglayer**: Incluye el entorno de trabajo LSL. Remítase a los ficheros CMAKELIST.TXT para su construcción; no obstante muchas de las aplicaciones se encuentran ya compiladas y disponibles para su uso en Windows 10 (x86-64):
 
-      - *[Reader]* **LabRecorder** (archivo principal ```LabRecorder.exe```): Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture, etc).
+          - *[Reader]* **LabRecorder** (archivo principal ```LabRecorder.exe```): Habilita la captura y sincronización de datos provenientes de diferentes fuentes (e.g ActiCHamp, AudioCapture, VideoCapture, etc).
 
-      - *[Writer]* **AudioCaptureWin** (archivo principal ```AudioCaptureWin.exe```): Captura de audio.
+          - *[Writer]* **AudioCaptureWin** (archivo principal ```AudioCaptureWin.exe```): Captura de audio.
 
-      - *[Writer]* **VideoCapture** (archivo principal ```VideoAcq.py```): Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
+          - *[Writer]* **VideoCapture** (archivo principal ```VideoAcq.py```): Grabaciones de vídeo. El dispositivo de grabación seleccionado debe ser compatible con OpenCV.
 
-      - *[Writer]* **ActiCHamp** (archivo principal ```actiCHamp.exe```): Configura la comunicación vía USB con el amplificador actiCHamp y habilita la captura de señales EEG.
+          - *[Writer]* **ActiCHamp** (archivo principal ```actiCHamp.exe```): Configura la comunicación vía USB con el amplificador actiCHamp y habilita la captura de señales EEG.
 
       - :file_folder: **Timing Test**: Especifica los requisitos de plataforma. Se incluye cualquier software de terceros (e.g VSCode, Anaconda, etc). 
 
