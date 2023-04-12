@@ -30,6 +30,7 @@ La instalación del entorno de trabajo LSL será efectuada desde PowerShell. Par
       ```
 
 3. Procedemos a instalar el gestor de paquetes *chocolatey*:
+
       ```
       Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
        ```
