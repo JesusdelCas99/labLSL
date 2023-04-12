@@ -44,7 +44,7 @@ La instalación del entorno de trabajo LSL será efectuada desde PowerShell. Par
 
       Remítase al instalador para ajustar los parámetros de la instalación y en su caso omitir las herramientas software que considere no necesarias. 
 
-5. Junto a las dependencias software instaladas en el paso anterior, se nos deberá haber creado el directorio 'labLSL_v1' directamente en nuesto escritorio. En este directorio encontraremos el cuerpo principal del proyecto, estructurado de la siguiente manera:
+      Junto a las dependencias software instaladas en el paso anterior, se nos deberá haber creado el directorio 'labLSL_v1' directamente en nuesto escritorio. En este directorio encontraremos el cuerpo principal del proyecto, estructurado de la siguiente manera:
 
       - :file_folder: **EEG_Recorder**: Contiene los experimentos desarrollados en Python y Psychopy. 
 
